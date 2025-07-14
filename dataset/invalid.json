@@ -1,0 +1,41 @@
+{
+	"name": "invalid",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "SalesDate",
+				"type": "text"
+			},
+			{
+				"name": "SalesMan",
+				"type": "text"
+			},
+			{
+				"name": "Item",
+				"type": "text"
+			},
+			{
+				"name": "Units",
+				"type": "text"
+			},
+			{
+				"name": "Unit_price",
+				"type": "text"
+			},
+			{
+				"name": "Sale_amt",
+				"type": "text"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "invalid"
+		}
+	}
+}
