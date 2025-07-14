@@ -1,0 +1,9 @@
+{
+	"name": "menakaadf1",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f6a094bb-a090-4f2a-9ff8-4e0fe4d232b2",
+		"tenantId": "76a2ae5a-9f00-4f6b-95ed-5d33d77c4d61"
+	}
+}
